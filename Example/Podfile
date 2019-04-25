@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'git@github.com:WWWarehouseMobile/BHSpecs.git'
+
+platform :ios, '8.0'
+
+target 'BHPopoverBackground_Example' do
+  pod 'BHPopoverBackground', :path => '../'
+
+  target 'BHPopoverBackground_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

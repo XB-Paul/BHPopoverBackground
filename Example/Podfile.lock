@@ -1,0 +1,16 @@
+PODS:
+  - BHPopoverBackground (0.1.0)
+
+DEPENDENCIES:
+  - BHPopoverBackground (from `../`)
+
+EXTERNAL SOURCES:
+  BHPopoverBackground:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BHPopoverBackground: f67aa2ce3438290c66ad381b5cc2a0c073f0ee3b
+
+PODFILE CHECKSUM: 28c22df5184744bbd6baec22977f3827a7336f02
+
+COCOAPODS: 1.6.1
