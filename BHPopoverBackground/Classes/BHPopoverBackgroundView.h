@@ -25,7 +25,10 @@ NS_ASSUME_NONNULL_BEGIN
  @param arrowColor 箭头颜色
  @param contentInsets 内容区域
  */
-+ (void)setupDefaultByArrowWidth:(CGFloat)arrowWidth arrowHeight:(CGFloat)arrowHeight arrowColor:(UIColor *)arrowColor contentViewInsets:(UIEdgeInsets)contentInsets;
++ (void)setupDefaultByArrowWidth:(CGFloat)arrowWidth
+                     arrowHeight:(CGFloat)arrowHeight
+                      arrowColor:(UIColor *)arrowColor
+               contentViewInsets:(UIEdgeInsets)contentInsets;
 
 
 /**

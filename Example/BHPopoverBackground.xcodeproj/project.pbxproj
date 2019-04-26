@@ -40,6 +40,7 @@
 /* Begin PBXFileReference section */
 		25506664227045190034AF6B /* BubbleContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleContentViewController.h; sourceTree = "<group>"; };
 		25506665227045190034AF6B /* BubbleContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleContentViewController.m; sourceTree = "<group>"; };
+		2A1A1F8D131995096EA39C78 /* Pods-BHPopoverBackground_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHPopoverBackground_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BHPopoverBackground_Example/Pods-BHPopoverBackground_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		375BB733297C8F9BF87BB9F0 /* Pods-BHPopoverBackground_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHPopoverBackground_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BHPopoverBackground_Tests/Pods-BHPopoverBackground_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		45AEBC9CF26930280A4B4F70 /* Pods-BHPopoverBackground_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHPopoverBackground_Example.debug.xcconfig"; path = "Target Support Files/Pods-BHPopoverBackground_Example/Pods-BHPopoverBackground_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BHPopoverBackground_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHPopoverBackground_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,11 +63,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72868B78B5672A7D5F9D9CBA /* Pods-BHPopoverBackground_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHPopoverBackground_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BHPopoverBackground_Example/Pods-BHPopoverBackground_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FDA20809079901D6341BB0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B8738D5D8658795F158B4D12 /* libPods-BHPopoverBackground_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BHPopoverBackground_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC04D19E4390BE32564B9FDE /* Pods-BHPopoverBackground_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHPopoverBackground_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BHPopoverBackground_Tests/Pods-BHPopoverBackground_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C61E09C570EDABDBF74B199C /* BHPopoverBackground.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BHPopoverBackground.podspec; path = ../BHPopoverBackground.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D0F821002A32D4B1205EAC46 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DB7480CCC220DB8FF6DA3552 /* Pods-BHPopoverBackground_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHPopoverBackground_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BHPopoverBackground_Tests/Pods-BHPopoverBackground_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E43253B907DFC779C86CE63A /* Pods-BHPopoverBackground_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHPopoverBackground_Tests.release.xcconfig"; path = "Target Support Files/Pods-BHPopoverBackground_Tests/Pods-BHPopoverBackground_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E72A1AECF486603AEBD75407 /* libPods-BHPopoverBackground_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BHPopoverBackground_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56B9458F0A9B2E0B459C73E /* Pods-BHPopoverBackground_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHPopoverBackground_Example.release.xcconfig"; path = "Target Support Files/Pods-BHPopoverBackground_Example/Pods-BHPopoverBackground_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +109,10 @@
 				F56B9458F0A9B2E0B459C73E /* Pods-BHPopoverBackground_Example.release.xcconfig */,
 				375BB733297C8F9BF87BB9F0 /* Pods-BHPopoverBackground_Tests.debug.xcconfig */,
 				E43253B907DFC779C86CE63A /* Pods-BHPopoverBackground_Tests.release.xcconfig */,
+				2A1A1F8D131995096EA39C78 /* Pods-BHPopoverBackground_Example.debug.xcconfig */,
+				72868B78B5672A7D5F9D9CBA /* Pods-BHPopoverBackground_Example.release.xcconfig */,
+				BC04D19E4390BE32564B9FDE /* Pods-BHPopoverBackground_Tests.debug.xcconfig */,
+				DB7480CCC220DB8FF6DA3552 /* Pods-BHPopoverBackground_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -212,6 +220,8 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				C81F7C3C3BC374C94B175744 /* [CP] Embed Pods Frameworks */,
+				A58B7BEEB7416A92289E7AC0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +240,8 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				323046C062E827707AB30A71 /* [CP] Embed Pods Frameworks */,
+				1D6EE275968CA88AB88DB500 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -324,6 +336,44 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		1D6EE275968CA88AB88DB500 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BHPopoverBackground_Tests/Pods-BHPopoverBackground_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		323046C062E827707AB30A71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BHPopoverBackground_Tests/Pods-BHPopoverBackground_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		98245CD45B1D1FD7C3CDECCF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,6 +394,44 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A58B7BEEB7416A92289E7AC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BHPopoverBackground_Example/Pods-BHPopoverBackground_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C81F7C3C3BC374C94B175744 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BHPopoverBackground_Example/Pods-BHPopoverBackground_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -499,7 +587,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F56B9458F0A9B2E0B459C73E /* Pods-BHPopoverBackground_Example.release.xcconfig */;
+			baseConfigurationReference = 72868B78B5672A7D5F9D9CBA /* Pods-BHPopoverBackground_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -517,7 +605,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 375BB733297C8F9BF87BB9F0 /* Pods-BHPopoverBackground_Tests.debug.xcconfig */;
+			baseConfigurationReference = BC04D19E4390BE32564B9FDE /* Pods-BHPopoverBackground_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -541,7 +629,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E43253B907DFC779C86CE63A /* Pods-BHPopoverBackground_Tests.release.xcconfig */;
+			baseConfigurationReference = DB7480CCC220DB8FF6DA3552 /* Pods-BHPopoverBackground_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

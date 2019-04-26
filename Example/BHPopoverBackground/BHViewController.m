@@ -25,8 +25,8 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     UIButton *button4 = [UIButton buttonWithType:(UIButtonTypeSystem)];
-    button4.frame = CGRectMake(300, 350, 100, 44.0);
-    [button4 setTitle:@"显示弹出框4" forState:(UIControlStateNormal)];
+    button4.frame = CGRectMake(300, 250, 100, 44.0);
+    [button4 setTitle:@"显示弹出框" forState:(UIControlStateNormal)];
     [button4 setTitleColor:[UIColor whiteColor] forState:(UIControlStateNormal)];
     button4.backgroundColor = [UIColor orangeColor];
     [self.view addSubview:button4];

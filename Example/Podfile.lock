@@ -6,11 +6,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   BHPopoverBackground:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  BHPopoverBackground: f67aa2ce3438290c66ad381b5cc2a0c073f0ee3b
+  BHPopoverBackground: 5efb02633fbf2965613938c807ef1933bd2170ec
 
 PODFILE CHECKSUM: 28c22df5184744bbd6baec22977f3827a7336f02
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.4.0
