@@ -36,6 +36,7 @@
 @implementation BHPopoverBackgroundView{
     BHPopoverArrowView *_arrowView;
     UIPopoverArrowDirection _sa_arrowDirection;
+    CGFloat _bh_arrowOffset;
 }
 
 - (instancetype)initWithFrame:(CGRect)frame
@@ -83,14 +84,12 @@
 }
 
 - (void)setArrowOffset:(CGFloat)arrowOffset {
-    if (arrowOffset > 0.1) {
-        NSLog(@"------------------------------\n------------------------------\n------------------------------arrowOffset=%f\n------------------------------\n------------------------------\n------------------------------",arrowOffset);
-    }
+    _bh_arrowOffset = arrowOffset;
 }
 
-+ (BOOL)wantsDefaultContentAppearance {
-    return NO;
-}
+//+ (BOOL)wantsDefaultContentAppearance {
+//    return NO;
+//}
 
 - (void)layoutSubviews {
     CGFloat width = CGRectGetWidth(self.bounds);
@@ -106,21 +105,21 @@
             if (arrowSpace < 0) {
                 arrowSpace = 0;
             }
-            _arrowView.frame = CGRectMake((width - arrowWidth)/2, arrowSpace, arrowWidth, arrowHeight);
+            _arrowView.frame = CGRectMake((width - arrowWidth)/2 + _bh_arrowOffset, arrowSpace, arrowWidth, arrowHeight);
             break;
         case UIPopoverArrowDirectionLeft:
             arrowSpace = edgeInset.left - arrowHeight;
             if (arrowSpace < 0) {
                 arrowSpace = 0;
             }
-            _arrowView.frame = CGRectMake(arrowSpace, (height - arrowWidth)/2, arrowHeight, arrowWidth);
+            _arrowView.frame = CGRectMake(arrowSpace, (height - arrowWidth)/2 + _bh_arrowOffset, arrowHeight, arrowWidth);
             break;
         case UIPopoverArrowDirectionDown:
-            _arrowView.frame = CGRectMake((width - arrowWidth)/2, height-edgeInset.bottom, arrowWidth, arrowHeight);
+            _arrowView.frame = CGRectMake((width - arrowWidth)/2 + _bh_arrowOffset, height-edgeInset.bottom, arrowWidth, arrowHeight);
             
             break;
         case UIPopoverArrowDirectionRight:
-            _arrowView.frame = CGRectMake(width - edgeInset.right, (height - arrowWidth)/2, arrowHeight, arrowWidth);
+            _arrowView.frame = CGRectMake(width - edgeInset.right, (height - arrowWidth)/2 + _bh_arrowOffset, arrowHeight, arrowWidth);
             break;
         default:
             break;
@@ -158,6 +157,7 @@
         configInstance.arrow_height = 10.0f;
         configInstance.contentView_insets = UIEdgeInsetsMake(10, 10, 10, 10);
         configInstance.arrow_color = [UIColor colorWithRed:69/255.0 green:73/255.0 blue:78/255.0 alpha:1];
+        
         configInstance.arrow_width_default = 12.0f;
         configInstance.arrow_height_default = 10.0f;
         configInstance.contentView_insets_default = UIEdgeInsetsMake(10, 10, 10, 10);
